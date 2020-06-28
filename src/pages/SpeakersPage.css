@@ -1,0 +1,59 @@
+.speakersContent {
+    width: '100%';
+    height: 1880px;
+    display: flex;
+}
+
+.speakersMainPart{
+    width: 80%;
+    height: 100%;
+}
+
+.speakersLeft{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.speakersRight{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@font-face {
+    font-family: 'UbuntuL';
+    src: local('UbuntuL'), url(../content/fonts/Ubuntu-L.ttf) format('truetype');
+  }
+
+.speakersTitle {
+    width: 100%;
+    height: 5%;
+    font-family: UbuntuL;
+    margin-top: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.speakersDescription {
+    width: 100%;
+    height: 10%;
+    margin-top: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.speakers{   
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

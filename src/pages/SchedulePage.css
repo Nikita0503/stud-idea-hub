@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'UbuntuL';
+    src: local('UbuntuL'), url(../content/fonts/Ubuntu-L.ttf) format('truetype');
+  }
+
+.scheduleContent{
+    display: flex;
+    width: 100%;
+    height: 1170px;
+}
+
+.scheludeMainPart{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.scheduleLeft{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.scheduleRight{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.scheduleHeader{
+    width: 50%;
+    height: 150px;
+    font-family: UbuntuL;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.scheduleTimetable{
+    width: 70%;
+    height: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 180px;
+    padding-top: 50px;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url(../content/fonts/Montserrat-Regular.otf) format('truetype');
+  }
+
+.scheduleItem1Content{
+    width: 100%;
+    height: 100px;
+    margin: 10px;
+    font-family: Montserrat;
+    display: flex;
+}
+
+.scheduleCompanies{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.scheduleItem2Content{
+    width: 100%;
+    height: 180px;
+    margin: 10px;
+    font-family: Montserrat;
+    display: flex;
+}
+
+.scheduleItem3Content{
+    width: 100%;
+    height: 100px;
+    margin: 10px;
+    font-family: Montserrat;
+    display: flex;
+}
+
+.scheduleItem4Content{
+    width: 100%;
+    height: 150px;
+    margin: 10px;
+    font-family: Montserrat;
+    display: flex;
+}
+
+.scheduleItem5Content{
+    width: 100%;
+    height: 130px;
+    margin: 10px;
+    font-family: Montserrat;
+    display: flex;
+}
+
+@font-face {
+    font-family: 'SansPro';
+    src: local('SansPro'), url(../content/fonts/SourceSansPro-Light.otf) format('truetype');
+  }
+
+.scheduleItemSpeakers{
+    font-family: SansPro;
+    display: flex;
+    flex-direction: column;
+}

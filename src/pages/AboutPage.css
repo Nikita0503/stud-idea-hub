@@ -1,0 +1,47 @@
+.aboutContent {
+    width: 100%;
+    height: 980px;
+    background-color: white
+}
+
+@font-face {
+    font-family: 'UbuntuL';
+    src: local('UbuntuL'), url(../content/fonts/Ubuntu-L.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'UbuntuR';
+    src: local('UbuntuR'), url(../content/fonts/SourceSansPro-Light.otf) format('truetype');
+  }
+
+.aboutTitle {
+    width: 100%;
+    height: 20%;
+    font-family: UbuntuL;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutDescription {
+    width: 100%;
+    height: 20%;
+    font-family: UbuntuR;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutPhotos {
+    width: 100%;
+    height: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutPhoto {
+    width: 375px;
+    margin-left: 50px;
+    margin-right: 50px;
+}

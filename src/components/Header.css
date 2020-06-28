@@ -1,0 +1,48 @@
+.header {
+    height: 100px;
+    display: flex;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: local('Ubuntu'), url(../content/fonts/Ubuntu-B.ttf) format('truetype');
+  }
+
+.logo {
+    width: 50%;
+ 
+    /*background-color: gold;*/
+    font-family: Ubuntu;
+    font-size: 35px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menu {
+    width: 50%;
+    font-size: 20px;
+    color: blue;    
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menuButton {
+    margin: 35px;
+    margin-top: 90px;
+    color: white;
+}
+
+.menuButtonVideos {
+    margin: 35px;
+    margin-top: 90px;
+    font-family: Ubuntu;
+    background-color: white;    
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+}

@@ -1,0 +1,58 @@
+.videosContent{
+    width: 100%;
+    height: 670px;
+    background: url('../content/images/background6.png');
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+.speakersMainPart{
+    width: 80%;
+    height: 100%;
+}
+
+.videosLeft{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.videosRight{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@font-face {
+    font-family: 'UbuntuL';
+    src: local('UbuntuL'), url(../content/fonts/Ubuntu-L.ttf) format('truetype');
+  }
+
+.videosTitle{
+    width: 100%;
+    height: 15%;
+    font-family: UbuntuL;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videos{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videosIndicator{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'UbuntuL';
+    src: local('UbuntuL'), url(../content/fonts/Ubuntu-L.ttf) format('truetype');
+}
+
+.speakerContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: UbuntuL;
+    width: 40%;
+    height: 180px;
+    background-color: white;
+}
+
+.speakerText{
+    display: flex;
+    font-family: UbuntuL;
+    flex-direction: column;
+    width: 60%;
+}
