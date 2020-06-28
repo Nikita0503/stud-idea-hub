@@ -7,7 +7,7 @@ export default class Header extends React.Component {
         return(
         <div className='header'>
             <div className='logo'>
-                <text style={{marginLeft: 80, marginTop: 50, fontSize: 45, fontWeight: 'bold'}}>Stud Idea hub</text>
+                <text style={{marginTop: 50, fontWeight: 'bold'}}>Stud Idea hub</text>
             </div>
             <div className='menu'>
                 <div className='menuButtonVideos'><text style={{fontSize: 25, color: 'black'}}>Videos</text></div>
