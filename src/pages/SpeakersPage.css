@@ -57,3 +57,81 @@
     align-items: center;
     justify-content: center;
 }
+
+.speakersDescriptionText{
+    font-size: 22px;
+    width: 70%;
+}
+
+.speakersTitleText{
+    font-size: 45px;
+    margin-left: 120px;
+    margin-right: 10px; 
+}
+
+.speakersTitleDecor{
+    width: 100px;
+}
+
+@media only screen and (max-width: 1000px){ 
+    .speakersDescriptionText{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 870px){ 
+    .speakersDescriptionText{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    
+.speakersTitleText{
+    font-size: 28px;
+    margin-left: 50px;
+    margin-right: 0px; 
+}
+
+.speakersTitleDecor{
+    width: 0px;
+}
+}
+
+
+@media only screen and (max-width: 580px){ 
+    .speakersDescriptionText{
+        font-size: 18px;
+        width: 100%;
+    }
+
+    
+.speakersTitleText{
+    font-size: 28px;
+    margin-left: 50px;
+    margin-right: 0px; 
+}
+
+.speakersTitleDecor{
+    width: 0px;
+}
+}
+
+@media only screen and (max-width: 580px){ 
+    .speakersDescription {
+        width: 100%;
+        height: 10%;
+        margin-top: 20px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .speakersTitleText{
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 0px; 
+    }
+    .speakersDescriptionText{
+        font-size: 16px;
+        width: 100%;
+    }
+}

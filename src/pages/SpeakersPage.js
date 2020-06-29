@@ -13,11 +13,11 @@ export default class SpeakersPage extends React.Component {
                 </div>
                 <div className='speakersMainPart'>
                     <div className='speakersTitle'>
-                        <text  style={{fontSize: 45, marginLeft: 120, marginRight: 10, marginTop: 10, fontWeight: 'bold'}}>MEET OUR SPEAKERS</text>
-                        <img src={require('../../src/content/images/head_decor2.png')} style={{width: 100, marginLeft: 15, marginTop: 10}} alt='logo'/>
+                        <text className='speakersTitleText' style={{marginTop: 10, fontWeight: 'bold'}}>MEET OUR SPEAKERS</text>
+                        <img className='speakersTitleDecor' src={require('../../src/content/images/head_decor2.png')} style={{marginLeft: 15, marginTop: 10}} alt='logo'/>
                     </div>
                     <div className='speakersDescription'>
-                        <text style={{fontSize: 22, width: '70%', textAlign: 'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</text>
+                        <text className='speakersDescriptionText' style={{textAlign: 'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</text>
                     </div>
                     <div className='speakers'>
                         <Speaker name='Nikita Shevtsiv' avatar='shevtsiv_n.png' topicAvatar='nikita.png' description='ReactNative cross-platform mobile application development'/> 

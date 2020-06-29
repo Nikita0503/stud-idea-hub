@@ -11,8 +11,8 @@
 .statisticsItemContent{
     width: 400px;
     height: 400px;
-    margin-right: 60px;
-    margin-left: 60px;
+    margin-right: 50px;
+    margin-left: 50px;
     font-family: Ubuntu;
     display: flex;
     flex-direction: column;
@@ -21,6 +21,46 @@
     color: white
 }
 
+.statisticsItemTitle{
+  font-size: 60px
+}
+
 .statisticsItemDescription{
+    width: 80%;
     font-family: UbuntuL;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 1000px){
+
+.statisticsItemTitle{
+  font-size: 40px
+}
+}
+
+@media only screen and (max-width: 800px){
+  .statisticsItemContent{
+    width: 80%;
+    height: 400px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Ubuntu;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white
+}
+
+.statisticsItemDescription{
+  font-family: UbuntuL;
+  font-size: 18px;
+  width: 50%;
+}
+
+.statisticsItemTitle{
+  font-size: 30px;
+  width: 40%;
+}
+  
 }

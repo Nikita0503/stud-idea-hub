@@ -5,12 +5,12 @@ export default class Speaker extends React.Component {
     render(){
         return(
             <div className='speakerContent'>
-                <img src={require('../content/images/' + this.props.avatar)} style={{width: 140}} alt='avatar'/>
+                <img className='speakerAvatar' src={require('../content/images/' + this.props.avatar)} alt='avatar'/>
                 <div className='speakerText'>
-                    <text style={{marginLeft: 20, fontSize: 32}}>{this.props.name}</text>
-                    <text style={{marginLeft: 20, fontSize: 18, color: 'gray'}}>{this.props.description}</text>
+                    <text className='speakerName' style={{marginLeft: 20}}>{this.props.name}</text>
+                    <text className='speakerDescription' style={{marginLeft: 20, color: 'gray'}}>{this.props.description}</text>
                 </div>
-                <img src={require('../content/images/' + this.props.topicAvatar)} style={{width: 120, marginLeft: 10}} alt='topicAvatar'/>
+                <img className='speakerAvatarTheme' src={require('../content/images/' + this.props.topicAvatar)} alt='topicAvatar'/>
             </div>   
         );
     }

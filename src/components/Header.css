@@ -51,15 +51,19 @@
     .header {
         height: 400px;
         display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
     }
     .menu {
         width: 50%;
         font-size: 20px;
         color: blue;    
         display: flex;
-        flex-direction: column-reverse;
+        margin-left: 10px;
+        flex-direction: row-reverse;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: center;
     }
     .logo {
         width: 50%;
@@ -67,6 +71,8 @@
         font-size: 45;
         color: white;
         display: flex;
+        margin-top: 60px;
+        margin-right: 70px;
         align-items: center;
         justify-content: center;
     }
@@ -76,8 +82,8 @@
         color: white;
     }
     .menuButtonVideos {
-        margin: 35px;
-        margin-top: 10px;
+        margin: 15px;
+        margin-top: 15px;
         font-family: Ubuntu;
         background-color: white;    
         padding: 8px;
@@ -126,6 +132,7 @@
         font-family: Ubuntu;
         background-color: white;    
         padding: 8px;
+        padding-top: 0px;
         padding-left: 30px;
         padding-right: 30px;
         border-radius: 30px;

@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: space-between;
     font-family: UbuntuL;
-    width: 40%;
+    width: 550px;
     height: 180px;
     background-color: white;
 }
@@ -18,4 +18,60 @@
     font-family: UbuntuL;
     flex-direction: column;
     width: 60%;
+}
+
+.speakerAvatar{
+    width: 140px;
+}
+
+.speakerAvatarTheme{
+    width: 100px;
+    margin-left: 10px;
+}
+
+.speakerName{
+    font-size: 30px;
+}
+
+.speakerDescription{
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 750px){
+    .speakerContent{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: UbuntuL;
+        width: 90%;
+        height: 180px;
+        background-color: white;
+    }
+
+    .speakerAvatarTheme{
+        width: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .speakerContent{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: UbuntuL;
+        width: 100%;  
+        background-color: white;
+        margin-right: 0px;
+    }
+    .speakerName{
+        font-size: 22px;
+    }
+
+    .speakerDescription{
+        font-size: 14px;
+    }
+    .speakerAvatar{
+        width: 100px;
+    }
 }
