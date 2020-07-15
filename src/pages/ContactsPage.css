@@ -2,6 +2,13 @@
     width: 100%;
     height: 360px;
     display: flex;
+    justify-content: space-between;
+}
+
+.contactsInfo{
+    height: 360px;
+    display: flex;
+    justify-content: space-around;
 }
 
 @font-face {
@@ -9,27 +16,252 @@
     src: local('UbuntuL'), url(../content/fonts/Ubuntu-L.ttf) format('truetype');
   }
 
-.contacts{
+.contacts {
     font-family: UbuntuL;
-    width: 33%;
+    width: 32%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.contactsLogo{
-    width: 33%;
+.contactsInfo{
+    width: 66%;
+}
+
+.contactsLogo {
+    width: 32%;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 15px;
 }
 
-.contactsSponsors{
+.contactsSponsors {
     font-family: UbuntuL;
-    width: 33%;
+    width: 32%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.contactsText{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.contactsLiteText{
+    margin: 5px;
+    font-size: 23px;
+}
+
+.contactsSponsorsImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactsSponsorsImage{
+    width: 45%;
+    margin-top: 12px;
+}
+
+@media only screen and (max-width: 930px) {
+    .contactsContent{
+        width: 100%;
+        height: 330px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contactsText {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .contactsLiteText {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .contactsSponsorsImages{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactsSponsors {
+        font-family: UbuntuL;
+        width: 32%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+
+    .contactsSponsorsImage{
+        width: 60%;
+        margin-top: 12px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .contactsInfo{
+        margin-top: 70px;
+        width: 100%;
+    }
+
+    .contactsContent{
+        width: 100%;
+        height: 230px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .contactsSponsors {
+        font-family: UbuntuL;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .contactsLogo {
+        width: 32%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .contacts {
+        font-family: UbuntuL;
+        width: 32%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .contactsText {
+        margin: 4px;
+        font-size: 19px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .contactsLiteText {
+        margin: 4px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .contactsSponsorsImages{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .contactsSponsorsImage{
+        width: 40%;
+        margin-top: 12px;
+    }
+
+    .contactsInfo{
+        height: 360px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .contactsInfo{
+        width: 100%;
+    }
+
+    .contactsContent{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .contactsSponsors {
+        font-family: UbuntuL;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .contactsText {
+        margin: 4px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .contactsLiteText {
+        margin: 4px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .contactsSponsorsImages{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .contactsSponsorsImage{
+        width: 40%;
+        margin-top: 12px;
+    }
+
+    .contactsInfo{
+        margin-bottom: 20px;
+        height: 320px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contactsLogo {
+        width: 32%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .contactsText {
+        margin: 4px;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .contactsLiteText {
+        margin: 4px;
+        font-size: 12px;
+        text-align: center;
+    }
 }

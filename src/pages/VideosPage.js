@@ -13,7 +13,7 @@ export default class VideosPage extends React.Component {
                     </div>
                     <div className='videos'>
                         <img src={require('../content/images/polygon_l.png')} style={{height: 55, marginRight: 70}} alt='previous'/> 
-                        <iframe title="video" width="560" height="315" src="https://www.youtube.com/embed/c7P03kkrEG8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe title="video" width='70%'  src="https://www.youtube.com/embed/c7P03kkrEG8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <img src={require('../content/images/polygon_r.png')} style={{height: 55, marginLeft: 70}} alt='next'/>
                     </div>
                     <div className='videosIndicator'>

@@ -6,7 +6,7 @@
 .scheduleContent{
     display: flex;
     width: 100%;
-    height: 1170px;
+    height: 1380px;
 }
 
 .scheludeMainPart{
@@ -42,10 +42,24 @@
     justify-content: center;
     flex-direction: column;
     margin-top: 50px;
+    margin-right: 100px;
 }
 
-.scheduleTimetable{
-    width: 70%;
+.scheduleHeaderDateText{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.scheduleHeaderText{
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.scheduleTimetable {
+    width: 55%;
     height: 1200px;
     display: flex;
     align-items: center;
@@ -57,27 +71,47 @@
 @font-face {
     font-family: 'Montserrat';
     src: local('Montserrat'), url(../content/fonts/Montserrat-Regular.otf) format('truetype');
-  }
+}
 
 .scheduleItem1Content{
     width: 100%;
-    height: 100px;
+    
     margin: 10px;
     font-family: Montserrat;
     display: flex;
 }
 
 .scheduleCompanies{
-    width: 100%;
-    height: 150px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-right: 240px;
+}
+
+.scheduleCompaniesPart1{
+    width: 80%;
     display: flex;
     flex-direction: row;
-   
+    align-items: center;
+    justify-content: space-around;
 }
+
+.scheduleCompaniesPart2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 .scheduleItem2Content{
     width: 100%;
-    height: 180px;
+   
     margin: 10px;
     font-family: Montserrat;
     display: flex;
@@ -85,7 +119,7 @@
 
 .scheduleItem3Content{
     width: 100%;
-    height: 100px;
+    
     margin: 10px;
     font-family: Montserrat;
     display: flex;
@@ -93,7 +127,7 @@
 
 .scheduleItem4Content{
     width: 100%;
-    height: 150px;
+  
     margin: 10px;
     font-family: Montserrat;
     display: flex;
@@ -101,7 +135,7 @@
 
 .scheduleItem5Content{
     width: 100%;
-    height: 130px;
+    
     margin: 10px;
     font-family: Montserrat;
     display: flex;
@@ -116,4 +150,317 @@
     font-family: SansPro;
     display: flex;
     flex-direction: column;
+}
+
+.scheduleItemTime{
+    font-size: 25px;
+}
+
+.scheduleItemText{
+    font-size: 25px;
+}
+
+.scheduleItemSpeakersText{
+    font-size: 25px;
+    color: blue;
+}
+
+@media only screen and (max-width: 1600px){
+
+    
+.scheduleHeader{
+    width: 50%;
+    height: 150px;
+    font-family: UbuntuL;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 0px;
+}
+.scheduleCompanies{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-right: 130px;
+}
+}
+
+@media only screen and (max-width: 1150px){
+
+.scheduleContent{
+    display: flex;
+    width: 100%;
+    height: 1320px;
+}
+
+.scheduleTimetable{
+    width: 70%;
+    height: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 130px;
+    padding-top: 50px;
+}
+
+.scheduleCompanies{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+}
+
+}
+
+@media only screen and (max-width: 900px){
+    
+    .scheduleCompanies{
+        width: 75%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        margin-right: 120px;
+    }
+
+    .scheduleContent{
+        display: flex;
+        width: 100%;
+        height: 1280px;
+    }
+
+    .scheduleTimetable{
+        width: 80%;
+        height: 1100px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 90px;
+        padding-top: 50px;
+    }
+    
+}
+
+@media only screen and (max-width: 800px){
+    
+    .scheduleTimetable{
+        width: 80%;
+        height: 1200px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+        padding-top: 50px;
+    }
+    
+    .scheduleItemTime{
+        font-size: 22px;
+    }
+
+    .scheduleItemText{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .scheduleItemSpeakersText{
+        font-size: 22px;
+        color: blue;
+        text-align: center;
+    }
+
+    .scheduleCompanies{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+
+    .scheduleContent{
+        display: flex;
+        width: 100%;
+        height: 1150px;
+    }
+}
+
+@media only screen and (max-width: 550px){
+
+    .scheduleHeaderDateText{
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .scheduleHeaderText{
+        font-size: 34px;
+        margin-top: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .scheduleTimetable{
+        width: 100%;
+        height: 1200px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 20px;
+        padding-top: 50px;
+    }
+
+    .scheduleItemTime{
+        font-size: 20px;
+    }
+
+    .scheduleItemText{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .scheduleContent{
+        display: flex;
+        width: 100%;
+        height: 1030px;
+    }
+
+    .scheduleItemSpeakersText{
+        font-size: 20px;
+        color: blue;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 475px){
+    .scheduleHeaderDateText{
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .scheduleHeaderText{
+        font-size: 30px;
+        margin-top: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .scheduleContent{
+        display: flex;
+        width: 100%;
+        height: 1000px;
+    }
+
+    .scheduleTimetable{
+        width: 100%;
+        height: 1200px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 20px;
+        padding-top: 50px;
+    }
+
+    .scheduleItemTime{
+        font-size: 18px;
+    }
+
+    .scheduleItemText{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .scheduleItemSpeakersText{
+        font-size: 18px;
+        color: blue;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .scheduleHeaderDateText{
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .scheduleHeaderText{
+        font-size: 24px;
+        margin-top: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .scheduleContent{
+        display: flex;
+        width: 100%;
+        height: 960px;
+    }
+    
+    .scheduleTimetable{
+        width: 100%;
+        height: 1200px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 0px;
+        padding-top: 50px;
+    }
+
+    .scheduleItemTime{
+        font-size: 17px;
+    }
+
+    .scheduleItemText{
+        font-size: 16px;
+        margin-left: 3px;
+        text-align: center;
+    }
+
+    .scheduleItemSpeakersText{
+        font-size: 17px;
+        color: blue;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 320px){
+    .scheduleTimetable{
+        width: 100%;
+        height: 1200px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 0px;
+        padding-top: 50px;
+    }
+
+    .scheduleItemTime{
+        font-size: 15px;
+    }
+
+    .scheduleItemText{
+        font-size: 15px;
+        margin-left: 3px;
+        text-align: center;
+    }
+
+    .scheduleItemSpeakersText{
+        font-size: 17px;
+        color: blue;
+        text-align: center;
+    }
 }
