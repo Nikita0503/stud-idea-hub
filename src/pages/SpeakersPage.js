@@ -20,14 +20,22 @@ export default class SpeakersPage extends React.Component {
                         <text className='speakersDescriptionText' style={{textAlign: 'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</text>
                     </div>
                     <div className='speakers'>
-                        <Speaker name='Nikita Shevtsiv' avatar='shevtsiv_n.png' topicAvatar='nikita.png' description='ReactNative cross-platform mobile application development'/> 
-                        <Speaker2 name='Anna Abramova' avatar='abramova_a.png' topicAvatar='anna.PNG' description='Web design and website design development techniques'/>
-                        <Speaker name='Valeria Pirnik' avatar='pirnik_v.png' topicAvatar='lera.png' description='Prospects for VR technology in 2020'/> 
-                        <Speaker2 name='Peremena Dmitry' avatar='peremena_d.png' topicAvatar='peremena.png' description='What we need, or how to protect our health'/>
-                        <Speaker name='Sherehov Dmitry' avatar='sherehov_d.png' topicAvatar='dima.png' description='The possibilities of modern computer graphics'/> 
-                        <Speaker2 name='Kruppa Maxim' avatar='kruppa_m.png' topicAvatar='maksim.png' description='The use of fuzzy logic in various spheres of life'/>
-                        <Speaker name='Lukash Savely' avatar='lukash_s.png' topicAvatar='sava.png' description='The relevance of English and other languages of the world in the IT industry'/> 
-                        <Speaker2 name='SPECIAL GUEST' avatar='photo1.png' topicAvatar='nikita.png' description='The relevance of English and other languages of the world in the IT industry'/>                        
+                        <div className="speakersRow">
+                            <Speaker name='Nikita Shevtsiv' avatar='shevtsiv_n.png' topicAvatar='nikita.png' description='ReactNative cross-platform mobile application development'/> 
+                            <Speaker name='Anna Abramova' avatar='abramova_a.png' topicAvatar='anna.PNG' description='Web design and website design development techniques'/>
+                        </div>
+                        <div className="speakersRow">
+                            <Speaker name='Valeria Pirnik' avatar='pirnik_v.png' topicAvatar='lera.png' description='Prospects for VR technology in 2020'/> 
+                            <Speaker name='Peremena Dmitry' avatar='peremena_d.png' topicAvatar='peremena.png' description='What we need, or how to protect our health'/>
+                        </div>
+                        <div className="speakersRow">
+                            <Speaker name='Sherehov Dmitry' avatar='sherehov_d.png' topicAvatar='dima.png' description='The possibilities of modern computer graphics'/> 
+                            <Speaker name='Kruppa Maxim' avatar='kruppa_m.png' topicAvatar='maksim.png' description='The use of fuzzy logic in various spheres of life'/>
+                        </div>
+                        <div className="speakersRow">
+                            <Speaker name='Lukash Savely' avatar='lukash_s.png' topicAvatar='sava.png' description='The relevance of English and other languages of the world in the IT industry'/> 
+                            <Speaker name='SPECIAL GUEST' avatar='photo1.png' topicAvatar='nikita.png' description='The relevance of English and other languages of the world in the IT industry'/>                        
+                        </div>
                     </div>
                 </div>
                 <div className='speakersRight'>

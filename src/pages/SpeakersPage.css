@@ -1,12 +1,20 @@
 .speakersContent {
     width: '100%';
-    height: 1880px;
+    height: 2780px;
     display: flex;
 }
 
 .speakersMainPart{
     width: 80%;
     height: 100%;
+}
+
+.speakersRow{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 .speakersLeft{
@@ -73,13 +81,35 @@
     width: 100px;
 }
 
+@media only screen and (max-width: 1600px){ 
+    .speakersRow{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+}
+
 @media only screen and (max-width: 1000px){ 
     .speakersDescriptionText{
         width: 100%;
     }
+    
+    .speakersRow{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
 }
 
-@media only screen and (max-width: 870px){ 
+@media only screen and (max-width: 800px){ 
+    .speakersContent{
+        height: 2000px;
+    }
+
     .speakersDescriptionText{
         font-size: 20px;
         width: 100%;
@@ -90,6 +120,7 @@
     font-size: 28px;
     margin-left: 50px;
     margin-right: 0px; 
+    text-align: center;
 }
 
 .speakersTitleDecor{
@@ -105,33 +136,25 @@
     }
 
     
-.speakersTitleText{
-    font-size: 28px;
-    margin-left: 50px;
-    margin-right: 0px; 
-}
-
-.speakersTitleDecor{
-    width: 0px;
-}
-}
-
-@media only screen and (max-width: 580px){ 
-    .speakersDescription {
-        width: 100%;
-        height: 10%;
-        margin-top: 20px;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-    }
     .speakersTitleText{
-        font-size: 20px;
-        margin-left: 20px;
+        font-size: 28px;
+        margin-left: 50px;
         margin-right: 0px; 
     }
-    .speakersDescriptionText{
-        font-size: 16px;
+
+    .speakersTitleDecor{
+        width: 0px;
+    }
+}
+
+@media only screen and (max-width: 450px){ 
+
+    .speakers{
+        margin-top: 70px;
+    }
+
+    .speakersRow{
         width: 100%;
+        justify-content: space-between;
     }
 }
