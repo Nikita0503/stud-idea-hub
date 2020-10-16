@@ -73,7 +73,6 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        /*background-color: maroon;*/   
     }
     
     .mainLogo {
@@ -81,7 +80,6 @@
         height: 50%;
         align-items: center;
         justify-content: center;
-        /*background-color: mediumslateblue;*/
     }
 
     .mainDate{

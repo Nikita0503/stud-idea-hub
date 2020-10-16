@@ -2,11 +2,12 @@ import React from 'react';
 import './SpeakersPage.css';
 import Speaker from '../components/Speaker';
 import Speaker2 from '../components/Speaker2';
+import {refSpeakers} from '../components/Header'
 
 export default class SpeakersPage extends React.Component {
     render(){
         return(
-            <div className='speakersContent'>
+            <div ref={refSpeakers} className='speakersContent'>
                 <div className='speakersLeft'>
                     <img src={require('../../src/content/images/back_decor4.png')} style={{width: '100%'}} alt='logo'/>
                     <img src={require('../../src/content/images/back_decor_1.png')} style={{width: '100%'}} alt='logo'/>

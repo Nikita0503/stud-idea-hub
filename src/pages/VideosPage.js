@@ -1,23 +1,23 @@
 import React from 'react';
 import './VideosPage.css';
+import {refContent} from '../components/Header'
+
 export default class VideosPage extends React.Component {
     render(){
         return(
-            <div className='videosContent'>
+            <div ref={refContent} className='videosContent'>
                 <div className='videosLeft'>
                     <img src={require('../content/images/back_decor_9.png')} style={{width: '100%'}} alt='decor'/>
                 </div> 
                 <div className='videosMainPart'>
                     <div className='videosTitle'>
-                        <text style={{fontSize: 60, marginTop: 60, fontWeight: 'bold', color: 'white'}}>Watch our conference!</text>
+                        <text className='videosTitleText'>Watch our conference!</text>
                     </div>
                     <div className='videos'>
-                        <img src={require('../content/images/polygon_l.png')} style={{height: 55, marginRight: 70}} alt='previous'/> 
-                        <iframe title="video" width='70%'  src="https://www.youtube.com/embed/c7P03kkrEG8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <img src={require('../content/images/polygon_r.png')} style={{height: 55, marginLeft: 70}} alt='next'/>
-                    </div>
-                    <div className='videosIndicator'>
-                            <text style={{fontSize: 60}}>. . .</text>
+                        <img className='video' src={require('../content/images/facebook.png')} alt='facebook'/>
+                        <img className='video' src={require('../content/images/youtube.png')} alt='youtube'/>
+                        <img className='video' src={require('../content/images/instagram.png')} alt='instagram'/>
+
                     </div>
                </div>
                <div className='videosRight'>

@@ -1,9 +1,11 @@
 import React from 'react';
 import './ContactsPage.css';
+import {refContacts} from '../components/Header'
+
 export default class ContactsPage extends React.Component {
     render(){
         return(
-            <div className='contactsContent'>
+            <div ref={refContacts} className='contactsContent'>
                 <div className='contactsInfo'>
                <div className='contacts'>
                 <text className='contactsText'>CONTACT US:</text>

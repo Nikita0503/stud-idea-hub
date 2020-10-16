@@ -93,7 +93,7 @@
         justify-content: center;
         font-family: UbuntuL;
         width: 300px;
-        height: 400px;
+        height: 420px;
         border-radius: 10px;
         padding-top: 20px;
         padding-bottom: 25px;
@@ -273,3 +273,17 @@
     }
 }
 
+@media only screen and (max-width: 390px){
+    .speakerContent{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: UbuntuL;
+        width: 130px;
+        height: 230px;
+    }
+
+    .speakerAvatar{
+        margin-bottom: 20px;
+    }
+}

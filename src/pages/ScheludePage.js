@@ -1,11 +1,11 @@
 import React from 'react';
 import './SchedulePage.css';
-
+import {refTimetable} from '../components/Header'
 
 export default class SchedulePage extends React.Component {
     render(){
         return(
-            <div className='scheduleContent'>
+            <div ref={refTimetable} className='scheduleContent'>
                 <div className='scheduleLeft'>
                     <img src={require('../../src/content/images/back_decor_2.png')} style={{width: '100%', marginTop: 20}} alt='logo'/>
                 </div>
