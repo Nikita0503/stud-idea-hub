@@ -9,7 +9,7 @@ export default class SpeakersPage extends React.Component {
         return(
             <div ref={refSpeakers} className='speakersContent'>
                 <div className='speakersLeft'>
-                    <img src={require('../../src/content/images/back_decor4.png')} style={{width: '100%'}} alt='logo'/>
+                    <img src={require('../../src/content/images/back_decor_4.png')} style={{width: '100%'}} alt='logo'/>
                     <img src={require('../../src/content/images/back_decor_1.png')} style={{width: '100%'}} alt='logo'/>
                 </div>
                 <div className='speakersMainPart'>
@@ -18,7 +18,7 @@ export default class SpeakersPage extends React.Component {
                         <img className='speakersTitleDecor' src={require('../../src/content/images/head_decor2.png')} style={{marginLeft: 15, marginTop: 10}} alt='logo'/>
                     </div>
                     <div className='speakersDescription'>
-                        <text className='speakersDescriptionText' style={{textAlign: 'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</text>
+                        <text className='speakersDescriptionText' style={{textAlign: 'center'}}>All of our speakers are student activists who want to change the university for the better and help other students to become better. The topics of the reports are selected in accordance with modern trends in the IT world. Among the speakers there are undergraduates who have commercial experience and will share their experience in their reports. Also, a special guest - "SPECIAL GUEST", a graduate of the Krivyi Rih National University, Senior developer of it-company IDAP will talk about the importance of code cleanliness and refactoring</text>
                     </div>
                     <div className='speakers'>
                         <div className="speakersRow">
@@ -35,7 +35,7 @@ export default class SpeakersPage extends React.Component {
                         </div>
                         <div className="speakersRow">
                             <Speaker name='Lukash Savely' avatar='lukash_s.png' topicAvatar='sava.png' description='The relevance of English and other languages of the world in the IT industry'/> 
-                            <Speaker name='SPECIAL GUEST' avatar='photo1.png' topicAvatar='nikita.png' description='The relevance of English and other languages of the world in the IT industry'/>                        
+                            <Speaker name='SPECIAL GUEST' avatar='photo1.png' topicAvatar='refact.png' description='The relevance of English and other languages of the world in the IT industry'/>                        
                         </div>
                     </div>
                 </div>

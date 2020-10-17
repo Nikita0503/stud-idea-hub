@@ -20,7 +20,7 @@ export default class SchedulePage extends React.Component {
                                 <text className='scheduleItemTime'>12:00 - 12:30</text>
                             </div>
                             <div style={{width: '60%', display: 'flex', alignItems: 'center'}}>
-                                <text className='scheduleItemText'>ПРЕДСТАВЛЕННЯ<br/> ЗАПРОШЕНИХ<br/> IT-КОМПАНІЙ</text>
+                                <text className='scheduleItemText'>PRESENTATION<br/> OF INVITED<br/> IT-COMPANIES</text>
                             </div>
                         </div>
                         <div className='scheduleCompanies'>
@@ -39,12 +39,12 @@ export default class SchedulePage extends React.Component {
                                 <text className='scheduleItemTime'>12:30 - 13:00</text>
                             </div>
                             <div style={{width: '60%', display: 'flex', flexDirection: 'column'}}>
-                                <text className='scheduleItemText' style={{marginBottom: 10}}>ВИСТУПИ СПІКЕРІВ <br/>(1 ЧАСТИНА)</text>
+                                <text className='scheduleItemText' style={{marginBottom: 10}}>SPEAKERS 'SPEECHES <br/>(PART 2)</text>
                                 <div className='scheduleItemSpeakers'>
-                                    <text className='scheduleItemSpeakersText'>Шевців Нікіта</text>
-                                    <text className='scheduleItemSpeakersText'>Абрамова Анна</text>
-                                    <text className='scheduleItemSpeakersText'>Круппа Максим</text>
-                                    <text className='scheduleItemSpeakersText'>Пєрємєна Дмитро</text>
+                                    <text className='scheduleItemSpeakersText'>Shevtsiv Nikita</text>
+                                    <text className='scheduleItemSpeakersText'>Abramova Anna</text>
+                                    <text className='scheduleItemSpeakersText'>Kruppa Maxim</text>
+                                    <text className='scheduleItemSpeakersText'>Peremena Dmytro</text>
                                 </div>
                             </div>
                         </div>
@@ -62,11 +62,11 @@ export default class SchedulePage extends React.Component {
                                 <text className='scheduleItemTime'>12:30 - 13:00</text>
                             </div>
                             <div style={{width: '60%', display: 'flex', flexDirection: 'column'}}>
-                                <text className='scheduleItemText' style={{marginBottom: 10}}>ВИСТУПИ СПІКЕРІВ <br/>(2 ЧАСТИНА)</text>
+                                <text className='scheduleItemText' style={{marginBottom: 10}}>SPEAKERS 'SPEECHES <br/>(PART 2)</text>
                                 <div className='scheduleItemSpeakers'>
-                                    <text className='scheduleItemSpeakersText'>Пірник Валерія</text>
-                                    <text className='scheduleItemSpeakersText'>Шерехов Дмитро</text>
-                                    <text className='scheduleItemSpeakersText'>Лукаш Савелій</text>
+                                    <text className='scheduleItemSpeakersText'>Pirnik Valeria</text>
+                                    <text className='scheduleItemSpeakersText'>Sherehov Dmytro</text>
+                                    <text className='scheduleItemSpeakersText'>Lukash Savelyy</text>
                                 </div>
                             </div>
                         </div>
@@ -75,7 +75,7 @@ export default class SchedulePage extends React.Component {
                                 <text className='scheduleItemTime'>14:00 - 14:30</text>
                             </div>
                             <div style={{width: '60%', display: 'flex', alignItems: 'center'}}>
-                                <text className='scheduleItemText'>КРУГЛИЙ СТІЛ З <br/>ПРЕДСТАВНИКАМИ <br/>IT-КОМПАНІЙ</text>
+                                <text className='scheduleItemText'>ROUND TABLE WITH <br/>REPRESENTATIVES <br/>IT-COMPANIES</text>
                             </div>
                         </div>
                     </div>

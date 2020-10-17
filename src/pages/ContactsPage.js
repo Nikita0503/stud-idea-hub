@@ -10,7 +10,7 @@ export default class ContactsPage extends React.Component {
                <div className='contacts'>
                 <text className='contactsText'>CONTACT US:</text>
                 <text className='contactsLiteText'>097-091-97-21</text>
-                <text className='contactsLiteText'>nikita0503@gmail.com</text>
+                <text className='contactsLiteText'>nikita0503ua@gmail.com</text>
                </div>
                <div className='contactsLogo'>
                 <img src={require('../content/images/logo.png')} style={{width: '100%'}} alt='logo'/>

@@ -1,4 +1,4 @@
-import React, {createRef } from 'react';
+import React, {createRef} from 'react';
 import './Header.css';
 import '../content/fonts/Ubuntu-B.ttf'
 
@@ -12,13 +12,13 @@ export default class Header extends React.Component {
         return(
         <div className='header'>
             <div className='logo'>
-                <text style={{marginTop: 50, fontWeight: 'bold'}}>Stud Idea hub</text>
+                <text style={{marginTop: 50, fontWeight: 'bold', cursor: 'pointer'}}>Stud Idea Hub</text>
             </div>
             <div className='menu'>
-                <div className='menuButtonVideos' onClick={() => {window.scrollTo({left: 0, top: refContent.current.offsetTop, behavior: 'smooth'})}}><text style={{fontSize: 25, color: 'black'}}>Content</text></div>
-                <div className='menuButton'><text style={{fontSize: 25}} onClick={() => {window.scrollTo({left: 0, top: refContacts.current.offsetTop, behavior: 'smooth'})}}>CONTACTS</text></div>
-                <div className='menuButton'><text style={{fontSize: 25}} onClick={() => {window.scrollTo({left: 0, top: refTimetable.current.offsetTop, behavior: 'smooth'})}}>TIMETABLE</text></div>
-                <div className='menuButton'><text style={{fontSize: 25}} onClick={() => {window.scrollTo({left: 0, top: refSpeakers.current.offsetTop, behavior: 'smooth'})}}>SPEAKERS</text></div>     
+                <div className='menuButtonVideos' onClick={() => {window.scrollTo({left: 0, top: refContent.current.offsetTop, behavior: 'smooth'})}}><text style={{fontSize: 25, color: 'black', cursor: 'pointer'}}>Content</text></div>
+                <div className='menuButton'><text style={{fontSize: 25, cursor: 'pointer'}} onClick={() => {window.scrollTo({left: 0, top: refContacts.current.offsetTop, behavior: 'smooth'})}}>CONTACTS</text></div>
+                <div className='menuButton'><text style={{fontSize: 25, cursor: 'pointer'}} onClick={() => {window.scrollTo({left: 0, top: refTimetable.current.offsetTop, behavior: 'smooth'})}}>TIMETABLE</text></div>
+                <div className='menuButton'><text style={{fontSize: 25, cursor: 'pointer'}} onClick={() => {window.scrollTo({left: 0, top: refSpeakers.current.offsetTop, behavior: 'smooth'})}}>SPEAKERS</text></div>     
             </div>
         </div>);
     }

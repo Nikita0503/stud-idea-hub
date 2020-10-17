@@ -11,7 +11,7 @@ export default class AboutPage extends React.Component {
                         <text className='aboutTitleText' style={{fontWeight: 'bold'}}>ABOUT STUD IDEA HUB</text>
                     </div>
                     <div className='aboutDescription'>
-                        <text className='aboutDescriptionText' style={{textAlign: 'center'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</text>
+                        <text className='aboutDescriptionText' style={{textAlign: 'center'}}>The purpose of the conference is to unite the IT companies of Krivyi Rih and students of the Kryvyi Rih National University. IT companies will talk about themselves, their projects and vacancies. After the speakers' speeches, students during the round table will be able to ask questions and discuss topics of interest</text>
                     </div>
                     <div className='aboutPhotos'>
                         <img className='aboutPhoto' src={require('../../src/content/images/photo1.png')} alt='logo'/>

@@ -20,13 +20,13 @@
 .speakerGradient{
     background: rgb(0,51,232);
     background: linear-gradient(90deg, rgba(45,53,162), rgba(230,66,156));
-    border-radius: 10px;
+    border-radius: 35px;
 }
 
 .speakerText{
     display: flex;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 25px;
     font-family: UbuntuL;
     flex-direction: column;
     width: 100%;
@@ -49,12 +49,14 @@
 
 .speakerName {
     color: white;
-    font-size: 30px;
+    font-size: 32px;
+    font-weight: bold;
 }
 
 .speakerDescription {
     width: 70%;
     font-size: 18px;
+    margin-top: 7px;
     text-align: center;
     color: white;
 }
