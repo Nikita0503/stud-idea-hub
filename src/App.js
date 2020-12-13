@@ -16,7 +16,6 @@ function App() {
       <StatisticsPage/>
       <SpeakersPage/>
       <SchedulePage/>
-      <VideosPage/>
       <ContactsPage/>
     </div>
   );

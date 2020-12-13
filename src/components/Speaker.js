@@ -7,10 +7,10 @@ export default class Speaker extends React.Component {
             <div className='speakerGradient'>
             <div className='speakerContent'>
                 <div className='speakerAvatarBackground'>
-                    <img className='speakerAvatar' src={require('../content/images/' + this.props.avatar)} alt='avatar'/>
+                    <img className='speakerAvatar' src={require('../content/images/' + this.props.avatar)} alt='avatar' style={{marginTop: this.props.name == 'Bohdan Kikacheishvili' ? 2 : 0}}/>
                 </div>
                 <div className='speakerText'>
-                    <text className='speakerName'>{this.props.name}</text>
+                    <text className='speakerName' style={{textAlign: 'center'}}>{this.props.name}</text>
                 </div>
                 <div className="speakerFooter">
                     <text className='speakerDescription'>{this.props.description}</text>

@@ -35,7 +35,7 @@ export default class SpeakersPage extends React.Component {
                         </div>
                         <div className="speakersRow">
                             <Speaker name='Lukash Savely' avatar='lukash_s.png' topicAvatar='sava.png' description='The relevance of English and other languages of the world in the IT industry'/> 
-                            <Speaker name='SPECIAL GUEST' avatar='photo1.png' topicAvatar='refact.png' description='The relevance of English and other languages of the world in the IT industry'/>                        
+                            <Speaker name='Bohdan Kikacheishvili' avatar='Kikacheishvili_b.png' topicAvatar='refact.png' description='The role of code refactoring in software development'/>                        
                         </div>
                     </div>
                 </div>
